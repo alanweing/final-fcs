@@ -110,6 +110,7 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
+
     right: 0;
     width: 720px;
     margin: 50px auto 30px auto;
@@ -136,54 +137,118 @@ body {
 }
 
 .sub-menu {
-    
+
     display: inline-block;
     position: absolute;
     right: 0;
     margin: 12px 60px 0 0;
-    
+
 }
 
 .sub-menu ul li {
-    
+
     display: inline;
     margin: 0 7px;
-    
+
 }
 
 .sub-menu ul li a {
-    
+
     color: #FFF;
     text-decoration: none;
     padding-bottom: 4px;
     font-size: .95pc;
     border-bottom: 1px solid transparent;
-    
+
 }
 
 .sub-menu ul li a:hover {
-    
+
     transition-property: all;
     transition-duration: .6s;
     transition-timing-function: ease;
     border-bottom-color:  #FFF;
-    
+
 }
 
 .sub-menu ul li:last-of-type a {
-    
+
     border: none;
     background: #03A9F4;
     padding: 5px 15px;
     border-radius: 40px;
     font-weight: 600;
     transition: background .2s ease;
-    
+
 }
 
 .sub-menu ul li:last-of-type a:hover {
-    
-    transition: background .2s ease; 
+
+    transition: background .2s ease;
     background: #1565C0;
+
+}
+
+.header-content-new {
+
+    width: 100%;
+    display: block;
+
+}
+
+.header-content-new:after {
+
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+.whats-new-content {
+
+    float: left;
+    width: 30%;
+    color: #FFF;
+    margin: 0 1.5%;
+
+}
+
+.whats-new-content h3 {
+
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+
+.whats-new-content p {
+
+    font-weight: 200;
+    text-align: justify;
+
+}
+
+.learn-card-wrapper {
+
+    display: inline;
+    width: 100%;
+
+}
+
+.learn-card-wrapper:after {
+
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+.learn-card {
+
+    float: left;
+    width: 30%;
+    margin: 0 1.5%;
+    background: #FFF;
+    color: #222;
     
+
 }
