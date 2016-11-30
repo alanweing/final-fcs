@@ -16,7 +16,7 @@ body {
 .nav-menu {
     display: block;
     text-align: right;
-    padding: 20px;
+    padding: 30px 60px;
 }
 
 .nav-menu ul li {
@@ -57,7 +57,7 @@ body {
 }
 
 .nav-menu ul li i {
-    margin-right: 3px;
+    margin-right: 8px;
     font-size: .9pc;
 }
 
@@ -67,13 +67,14 @@ body {
     background: #CCC;
     padding: 20px;
     display: block;
+    height: 1000px;
 
 }
 
 .header-logo {
 
     display: block;
-    margin: 20px 0 0 50px;
+    margin: 20px 0 0 60px;
 
 }
 
@@ -82,7 +83,7 @@ body {
     float: left;
     font-size: 2pc;
     color: #FFF;
-    margin: 2px 0 0 10px;
+    margin: -1px 0 0 10px;
     font-weight: 300;
     letter-spacing: -.8px;
 
@@ -91,7 +92,7 @@ body {
 .header-logo img {
 
     float: left;
-    width: 40px;
+    width: 30px;
     height: 100%;
 
 }
@@ -108,10 +109,10 @@ body {
 
     position: absolute;
     bottom: 0;
-    left: 0
+    left: 0;
     right: 0;
-    width: 700px;
-    margin: 50px auto 0 auto;
+    width: 720px;
+    margin: 50px auto 30px auto;
     display: block;
     text-align: center;
     color: #FFF;
@@ -132,4 +133,57 @@ body {
 
     font-weight: 400;
 
+}
+
+.sub-menu {
+    
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin: 12px 60px 0 0;
+    
+}
+
+.sub-menu ul li {
+    
+    display: inline;
+    margin: 0 7px;
+    
+}
+
+.sub-menu ul li a {
+    
+    color: #FFF;
+    text-decoration: none;
+    padding-bottom: 4px;
+    font-size: .95pc;
+    border-bottom: 1px solid transparent;
+    
+}
+
+.sub-menu ul li a:hover {
+    
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    border-bottom-color:  #FFF;
+    
+}
+
+.sub-menu ul li:last-of-type a {
+    
+    border: none;
+    background: #03A9F4;
+    padding: 5px 15px;
+    border-radius: 40px;
+    font-weight: 600;
+    transition: background .2s ease;
+    
+}
+
+.sub-menu ul li:last-of-type a:hover {
+    
+    transition: background .2s ease; 
+    background: #1565C0;
+    
 }
