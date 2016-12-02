@@ -436,6 +436,7 @@ footer ul li a i {
     
     color: #898A98;
     margin-right: 10px;
+    transition: color .1s ease-in-out;
     
 }
 
