@@ -6,7 +6,7 @@ $(document).ready(function ()
         imageSrc: 'img/ps-marquee1440x660.jpg'
     });
 
-    $('#overview, #whats-new, #learn-and-support, #free-trial, #buy-now').on('click', function ()
+    $('#overview, #whats-new, #learn, #free-trial, #buy-now').on('click', function ()
     {
         new Spinner({
             lines: 13,
@@ -25,7 +25,7 @@ $(document).ready(function ()
             top: '0',
             left: '50%'
         }).spin(document.getElementById('header-content'));
-
+        
         getPage('pages/' + this.id + '.html').then(
             function (success)
             {
