@@ -688,3 +688,138 @@ footer ul li a i {
     text-decoration: underline;
     
 }
+
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 0;
+    width: 95%; 
+    max-width: 800px;
+    min-width: 600px;
+    position: relative;
+}
+
+.close {
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(225, 225, 225, .5);
+    border-radius: 50%;
+    color: #333;
+    font-weight: 100;
+    font-size: .9pc;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-top: -30px;
+    transition: background .2s ease-out;
+    
+}
+
+.close p {
+    
+    margin-top: 1px;
+    margin-right: -1px;
+    
+}
+
+.close:hover,
+.close:focus {
+    
+    background: #FFF;
+    transition: background .2s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.modal-content-wrapper {
+    
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    color: #3F4C56;
+    
+}
+
+.modal-content img {
+    
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+
+.modal-content-wrapper h2 {
+    
+    color: #2B9AF3;
+    font-size: 1.5pc;
+    
+}
+
+.modal-content-wrapper p {
+    
+    font-weight: 200;
+    margin: 10px 0;
+    
+}
+
+.modal-content-wrapper h4 {
+    
+    font-weight: 500;
+    font-size: 1.3pc;
+    margin-top: 30px;
+    
+}
+
+.modal-content-wrapper h3 {
+    
+    margin: 10px 0;
+    font-size: 2pc;
+    font-weight: 200;
+    letter-spacing: -1.3px;
+    
+}
+
+.modal-content-wrapper button {
+    
+    border: none;
+    background: #2B9AF3;
+    color: #FFF;
+    padding: 8px 10px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    font-size: 1pc;
+    
+}
+
+.modal-content-wrapper a {
+    
+    color: #2B9AF3;
+    text-decoration: none;
+    font-weight: 200;
+    margin: 10px;
+    display: block
+    
+}
+
+.modal-content {
+    
+    padding-bottom: 40px;
+    
+}

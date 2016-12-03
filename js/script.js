@@ -6,7 +6,7 @@ $(document).ready(function ()
         imageSrc: 'img/ps-marquee1440x660.jpg'
     });
 
-    $('#overview, #whats-new, #free-trial, #buy-now').on('click', function ()
+    $('#overview, #whats-new, #free-trial').on('click', function ()
     {
         new Spinner({
             lines: 13,
@@ -46,6 +46,33 @@ $(document).ready(function ()
             }
         );
     });
+    
+    var modal = document.getElementById('modal');
+    
+    $('#buy-now').on('click', function () 
+    {
+        getPage('pages/buy-now.html')
+            .then(function (response)
+            { 
+                modal.getElementsByClassName('modal-content')[0].innerHTML = response;
+                modal.style.display = 'block';
+                document.getElementsByClassName('close')[0].onclick = function () 
+    {
+        modal.style.display = 'none';
+    };
+    
+            }
+        );
+    });
+
+    window.onclick = function (event)
+    {
+        if (event.target == modal)
+        {
+            modal.style.display = 'none';
+        }
+    };
+    
 });
 
 function getPage(url) {
