@@ -6,7 +6,7 @@ $(document).ready(function ()
         imageSrc: 'img/ps-marquee1440x660.jpg'
     });
 
-    $('#overview, #whats-new, #free-trial').on('click', function ()
+    $('#overview, #whats-new').on('click', function ()
     {
         new Spinner({
             lines: 13,

@@ -85,3 +85,103 @@ p:nth-of-type(2) {
     margin: 24px 0;
     
 }
+
+p a {
+    
+    text-decoration: none;
+    color: #3399FF;
+    transition: color .2s ease-out;
+    
+}
+
+p a:hover {
+    
+    color: #2A78B8;
+    transition: color .2s ease-in-out;
+    
+}
+
+button {
+    
+    float: left;
+    width: 45%;
+    background: #D9D9D9;
+    color: #FFF;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 7px;
+    font-size: 1pc;
+    font-weight: 200;
+    font-family: 'Kanit';
+    
+}
+
+p:nth-of-type(3) {
+    
+    float: left;
+    width: 5%;
+    margin-top: 13px;
+    color: #646464;
+    
+}
+
+hr:nth-child(2) {
+    
+    border: none;
+    border-bottom: 1px solid #D9D9D9;
+    
+}
+
+footer ul {
+    
+    margin: 0 20px;
+    
+}
+
+footer ul li {
+    
+    display: inline;
+    
+}
+
+footer ul li a {
+    
+    text-decoration: none;
+    color: #646464;
+    font-size: .7pc;
+    
+}
+
+footer ul li a:hover {
+    
+    text-decoration: underline;
+    
+}
+
+.disabled {
+    
+    background: #D9D9D9;
+    
+}
+
+.disabled:hover {
+    
+    background: #D9D9D9;
+    cursor: none;
+    
+}
+
+.active {
+    
+    background: #009DF5;
+    transition: background .2s ease-out;
+    
+}
+
+.active:hover {
+    
+    background: #2A78B8;
+    transition: background .3s ease-in-out;
+    cursor: pointer;
+    
+}
