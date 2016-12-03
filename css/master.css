@@ -48,12 +48,6 @@ body {
 
 }
 
-.nav.menu ul li a:active {
-
-    border-bottom: 1px solid #CCC;
-
-}
-
 .nav-menu ul li i {
     margin-right: 8px;
     font-size: .9pc;
@@ -81,7 +75,6 @@ body {
 
     float: left;
     width: 30px;
-    height: 100%;
 
 }
 
@@ -442,7 +435,8 @@ footer ul li a i {
 
 .learn-cards-wrapper {
     
-    width: 100%;
+    display: table;
+    margin: 0 auto;
     
 }
 
@@ -461,7 +455,7 @@ footer ul li a i {
     margin: 15px;
     height: 220px;
     background: #FFF;
-    box-shadow: 0 2px 7px rgba(255,255,255, .5);
+    box-shadow: 0 2px 7px rgba(2,2,2, .4);
     position: relative;
     text-shadow: none;
     
@@ -574,5 +568,123 @@ footer ul li a i {
 .learn-card-content p:first-child{
     
     padding: 10px
+    
+}
+
+.learn-frame {
+    
+    display: block;
+    background: #EBEBEB;
+    padding-bottom: 50px;
+    
+}
+
+.learn-frame > img {
+    
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px
+    
+}
+
+.learn-frame h2 {
+    
+    text-align: center;
+    font-size: 2pc;
+    font-weight: 200;
+    
+}
+
+.learn-frame h4 {
+    
+    text-align: center;
+    font-weight: 100;
+    margin: 10px 0 30px 0;
+    
+}
+
+.support-wrapper {
+    
+    display: table;
+    margin: 0 auto;
+    
+}
+
+.support-wrapper:after {
+    
+    content: '';
+    display: table;
+    clear: both;
+    
+}
+
+.support-card {
+    
+    float: left;
+    width: 220px;
+    margin: 0 10px;
+    text-align: center;
+    
+}
+
+.support-card h2 {
+    
+    color: #666;
+    font-size: 1.4pc;
+    margin: 25px 0;
+    
+}
+
+.support-card p {
+    
+    font-weight: 200;
+    margin-top: 20px;
+    
+}
+
+.support-card a {
+    
+    color: #4F9DF6;
+    font-weight: 200;
+    text-decoration: none;
+    margin: 20px 0;
+    display: block;
+    
+}
+
+.learn-frame hr {
+    
+    height: 1px;
+    border: none;
+    background: linear-gradient(to right, transparent, #CCC, transparent);
+    margin: 30px 250px;
+    
+}
+
+.learn-frame ul {
+    
+    text-align: center;
+    
+}
+
+.learn-frame ul li {
+     
+    display: inline;
+    margin: 0 20px;
+    
+}
+
+.learn-frame ul li a {
+    
+    text-decoration: none;
+    color: #009DF5;
+    font-weight: 200;
+    
+}
+
+.learn-frame ul li a:hover, .support-card a:hover {
+    
+    color: #33CCFF;
+    text-decoration: underline;
     
 }
