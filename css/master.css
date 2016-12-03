@@ -35,14 +35,12 @@ body {
     text-shadow: 1px 1px 1px #222;
     padding: 5px;
     font-weight: 100;
+    text-shadow: 0 1px 1px #000;
 
 }
 
 .nav-menu ul li a:hover {
 
-    /*background: rgba(100, 100, 100, .2);*/
-    /*outline: 1px solid rgba(100, 100, 100, .5);*/
-    /*border-bottom: 1px solid #CCC;*/
     transition: color 0.4s ease;
     color: #FFF;
 
@@ -131,7 +129,7 @@ body {
 
     display: inline;
     margin: 0 7px;
-    font-weight: 100;
+    font-weight: 200;
 
 }
 
@@ -142,6 +140,7 @@ body {
     padding-bottom: 4px;
     font-size: .95pc;
     border-bottom: 1px solid transparent;
+    text-shadow: 0 1px 1px rgba(20, 20, 20, 1);
 
 }
 
